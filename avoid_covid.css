@@ -1,0 +1,55 @@
+nav {
+  display: none;
+  justify-content: center;
+  clear: both;
+  background: #333;
+  flex-direction: column;
+}
+body{
+  background: #ccddff;
+  margin: 0;
+}
+
+nav a{
+  padding: 1.25em 1.5em;
+  color: #ccc;
+  background-color: #555;
+  text-decoration: none;
+  transition: all 1.5s;
+}
+ nav a:hover{
+   color: #dfd;
+   background: #797;
+   padding-left: 2em;
+   font-weight: bold;
+ }
+ main{
+   padding: 0 10px;
+ }
+ .menu{
+   background: #555;
+   text-align: center;
+   color: #fff;
+   line-height: 2em;
+ }
+ .ico{
+   width: 20px;
+   height: 20px;
+   transition: all 0.2s ease-in-out;
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+ }
+ .ico:hover {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+}
+  .menu-toggle{
+  display: flex;
+}
+h1{
+  text-align: center;
+}
